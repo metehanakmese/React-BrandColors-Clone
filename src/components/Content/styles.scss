@@ -1,0 +1,20 @@
+.content{
+    flex:1;
+    overflow: auto; // kendi içinde scroll olur
+    .header{
+        height:55px ;
+        border-bottom: 1px solid #e0e0e0;;
+        display: flex;
+        position: sticky; // scroll olurken search yukarda sabit kalır
+        top: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .brands{
+        //padding: 15px;
+    }
+}
+
+header{
+    background-color: white;
+}

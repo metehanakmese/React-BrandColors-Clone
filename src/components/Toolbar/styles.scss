@@ -1,0 +1,52 @@
+.toolbar{
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    .actions{
+    display: flex;    
+    // margin-right: 15px;
+
+    a,button {
+        height: 30px;
+        width: 30px;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-right: 5px;
+        svg{
+            height: 24px;
+            width: 24px;
+            color: #607D8B;
+        }
+    }
+    select{
+        height: 30px;
+        padding: 0 15px;
+        background: #eee;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 4px;
+        margin-right: 7px;
+    }
+}
+    .selected-brand{
+        font-size: 14px;
+        color: #607D8B;
+        display: flex;
+        align-items: center;
+
+        button{
+            background: transparent;
+            cursor: pointer;
+            margin-right: 15px;
+            svg{
+                display: block;
+                height: 24px;
+                width: 24px;
+                color: #607D8B;   
+            }
+        }
+    }
+}

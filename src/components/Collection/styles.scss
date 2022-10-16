@@ -1,0 +1,21 @@
+.back-btn{
+    background: transparent;
+    display: flex;
+    align-items:center;
+    font-size: 14px;
+    margin-left: 20px;
+    color: #607D8B;
+    text-decoration: none;
+
+    svg{
+        display: block;
+        margin-right:5px;
+        width: 18px;
+        height: 18px;
+        color: #607D8B;
+        
+    }
+}
+a{
+    text-decoration: none;
+}
